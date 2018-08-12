@@ -6,7 +6,7 @@ package list
   scala > length(List(1,1,2,5,8))
   res0: Int = 6
  */
-class P04 {
+object P04 extends App {
 
   def lengthBuiltin[A](ls: List[A]): Int = ls.length
 
